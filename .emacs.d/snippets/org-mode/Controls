@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Controls
+# key: ct
+# --
+**** `(format-time-string "%Y-%m-%d %a %H:%M" (current-time))` $1H
+:PROPERTIES:
+:Persona:  $2
+:Event:    Control
+:Date:     `(format-time-string "%Y-%m-%d %a %H:%M" (current-time))`
+:Assign:   $3
+:Unitats:  $
+:END:

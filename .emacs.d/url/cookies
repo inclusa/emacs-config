@@ -1,0 +1,22 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.com"
+  [url-cookie "NID" "98=j2EPEXuvtbRUE6c5Zzhid0pEfKqvJWeZgpSGG5SByKsTYzO_KU0vdKOEof9QUIfbUqnit7cuLFlhVl2Lvm2pQ77G9RCOlv5GgPe81gi8O16LZmZ1EnzqlgSWFkhWW1CN" "12-Sep-2017 21:34:59.00 GMT" "/" ".google.com" nil]
+  [url-cookie "HttpOnly" nil "12-Sep-2017 21:34:59.00 GMT" "/" ".google.com" nil])
+ (".youtube.com"
+  [url-cookie "VISITOR_INFO1_LIVE" "qEjonPLXXv4" "12-Nov-2017 09:28:15.00 GMT" "/" ".youtube.com" nil]
+  [url-cookie "PREF" "f1=50000000" "12-Nov-2017 09:28:15.00 GMT" "/" ".youtube.com" nil]
+  [url-cookie "CONSENT" "WP.25e0e1" "01-Jan-2038 00:00:00.00 GMT" "/" ".youtube.com" nil])
+ (".google.es"
+  [url-cookie "NID" "98=vLza5T7voEJxhrXXq7Xonkz0SvOGqsuOwATSTVRgrnrPdEDb1UA2QDv8AfWXa-Z0Z0SNzo0S6fp6srIN3HKr84OYQ4bMgawEwpBF_45CwJMP10TP0on1wDkP5WSsVsNs" "12-Sep-2017 21:29:38.00 GMT" "/" ".google.es" nil]
+  [url-cookie "HttpOnly" nil "12-Sep-2017 21:29:38.00 GMT" "/" ".google.es" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
