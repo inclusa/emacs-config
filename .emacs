@@ -55,15 +55,17 @@
 ;;; #17 Snippets configuració
 ;;; #18 Configuració de GIT amb el MAGIT
 ;;; #19 Configuració de Bullets
-;
-;
-;
-;
-;
-;
+;;; #20 Activar numbres de linea
+;;
+;;
+;;
+;;
+;;
+;;
 ;;; #01 Espeficar directori per defecte
 (setq default-directory "~/Documents/56_bulletjournal/org")
-;(setq default-directory "~/bin/github/2eso/01_gh/08_unit/md/")
+;;(setq default-directory "~/bin/github/2eso/01_gh/08_unit/md/")
+;(setq default-directory "~/bin/github/2eso/05_mu/md")
 ;
 ;
 ;
@@ -197,3 +199,6 @@ trash-directory "~/.local/share/Trash/files")
 ;
 ;
 ;
+;;; #20 Activar numbres de linea
+(global-linum-mode t)
+
