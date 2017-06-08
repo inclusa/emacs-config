@@ -63,7 +63,7 @@
 ;;
 ;;
 ;;; #01 Espeficar directori per defecte
-(setq default-directory "~/Documents/56_bulletjournal/org")
+(setq default-directory "~/Documents/org")
 ;;(setq default-directory "~/bin/github/2eso/01_gh/08_unit/md/")
 ;(setq default-directory "~/bin/github/2eso/05_mu/md")
 ;
@@ -117,8 +117,8 @@ trash-directory "~/.local/share/Trash/files")
 ;
 ;
 ;;; #10 Plantilles per a capturar
-(setq org-directory "~/Documents/56_bulletjournal/org")
-(setq org-default-notes-file "~/Documents/56_bulletjournal/notes")
+(setq org-directory "~/Documents/org")
+(setq org-default-notes-file "~/Documents/notes")
 ;
 ;
 ;
@@ -131,21 +131,21 @@ trash-directory "~/.local/share/Trash/files")
 ;;; #12 Capturar per templates
 ;; Capture templates for: TODO tasks, Notes, appointments, phone calls, meetings, and org-protocol
 (setq org-capture-templates
-      (quote (("t" "todo" entry (file "~/Documents/56_bulletjournal/org/captura.org")
+      (quote (("t" "TODO" entry (file "~/Documents/org/captura.org")
                "* TODO %?\n%U\n%a\n" :clock-in t :clock-resume t)
-              ("r" "respond" entry (file "~/Documents/56_bulletjournal/org/captura.org")
+              ("r" "Respond" entry (file "~/Documents/org/captura.org")
                "* NEXT Respond to %:from on %:subject\nSCHEDULED: %t\n%U\n%a\n" :clock-in t :clock-resume t :immediate-finish t)
-              ("n" "note" entry (file "~~/Documents/56_bulletjournal/org/captura.org")
+              ("n" "Note" entry (file "~~/Documents/org/captura.org")
                "* %? :NOTE:\n%U\n%a\n" :clock-in t :clock-resume t)
-              ("j" "Journal" entry (file+datetree "~/Documents/56_bulletjournal/org/diary.org")
+              ("j" "Journal" entry (file+datetree "~/Documents/org/diary.org")
                "* %?\n%U\n" :clock-in t :clock-resume t)
-              ("w" "org-protocol" entry (file "~/Documents/56_bulletjournal/org/captura.org")
+              ("w" "Org-protocol" entry (file "~/Documents/org/captura.org")
                "* TODO Review %c\n%U\n" :immediate-finish t)
-              ("m" "Meeting" entry (file "~/Documents/56_bulletjournal/org/captura.org")
+              ("m" "Meeting" entry (file "~/Documents/org/captura.org")
                "* MEETING with %? :MEETING:\n%U" :clock-in t :clock-resume t)
-              ("p" "Phone call" entry (file "~/Documents/56_bulletjournal/org/captura.org")
+              ("p" "Phone call" entry (file "~/Documents/org/captura.org")
                "* PHONE %? :PHONE:\n%U" :clock-in t :clock-resume t)
-              ("h" "Habit" entry (file "~/Documents/56_bulletjournal/org/captura.org")
+              ("h" "Habit" entry (file "~/Documents/org/captura.org")
                "* NEXT %?\n%U\n%a\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:REPEAT_TO_STATE: NEXT\n:END:\n"))))
 ;
 ;
