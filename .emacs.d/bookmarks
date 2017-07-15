@@ -3,8 +3,53 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
+ (filename . "~/Documents/56_bulletjournal/org/~~/Documents/56_bulletjournal/org/captura.org")
+ (front-context-string . "* Memòria Fonana")
+ (rear-context-string . "06-30 dv 01:42]\n")
+ (position . 33950))
+("01 full.org"
+ (filename . "~/Documents/56_bulletjournal/org/full.org")
+ (front-context-string . "\n\n#+TITLE: Bulle")
+ (rear-context-string)
+ (position . 1))
+("02 captura.org"
  (filename . "~/Documents/56_bulletjournal/org/captura.org")
  (front-context-string . "* TODO Post en b")
  (rear-context-string)
  (position . 1))
+("03 diary.org"
+ (filename . "~/Documents/56_bulletjournal/org/diary.org")
+ (front-context-string . "\n* 2017\n** 2017-")
+ (rear-context-string)
+ (position . 1))
+("04 fills"
+ (filename . "~/Documents/10_fills/")
+ (front-context-string . "01_daniel\n  drwx")
+ (rear-context-string . "96 set 16  2016 ")
+ (position . 234))
+("05 5pri"
+ (filename . "~/bin/github/5pri/")
+ (front-context-string . "01_socials\n  drw")
+ (rear-context-string . "96 jun  3 16:56 ")
+ (position . 231))
+("06 2eso"
+ (filename . "~/bin/github/2eso/")
+ (front-context-string . "00_gen\n  drwxrwx")
+ (rear-context-string . "96 mai  8 02:40 ")
+ (position . 231))
+("07 treball"
+ (filename . "~/Documents/01_treball_2016-2017/")
+ (front-context-string . "00_scripts\n  drw")
+ (rear-context-string . "96 set 25  2016 ")
+ (position . 246))
+("08 inclusa"
+ (filename . "~/bin/github/inclusa.github.io/")
+ (front-context-string . "about.md\n  -rw-r")
+ (rear-context-string . "90 gen 14 05:38 ")
+ (position . 244))
+("09 emacsblog"
+ (filename . "~/bin/github/emacs/_posts/")
+ (front-context-string . "2017-03-01-inici")
+ (rear-context-string . "89 abr  9 13:21 ")
+ (position . 240))
 )

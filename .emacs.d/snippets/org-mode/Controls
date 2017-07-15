@@ -2,7 +2,7 @@
 # name: Controls
 # key: ct
 # --
-**** `(format-time-string "%Y-%m-%d %a %H:%M" (current-time))` $1H
+**** $1H
 :PROPERTIES:
 :Persona:  $2
 :Event:    Control

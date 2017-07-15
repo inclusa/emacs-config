@@ -30,6 +30,8 @@
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-iswitchb)
 ;;
+;; #01 Definim el mode global per a elfeed
+(global-set-key (kbd "C-x w") 'elfeed)
 ;;
 ;;
 ;
@@ -56,16 +58,18 @@
 ;;; #18 Configuració de GIT amb el MAGIT
 ;;; #19 Configuració de Bullets
 ;;; #20 Activar numbres de linea
-;;
+;;; #21 Configuració org-ref
+;;; #22 Configuració helm-bibtex
+;;; #23 Pandoc
+;;; #24 Pandoc menú
+;;; #25 Feeds
 ;;
 ;;
 ;;
 ;;
 ;;
 ;;; #01 Espeficar directori per defecte
-(setq default-directory "~/Documents/org")
-;;(setq default-directory "~/bin/github/2eso/01_gh/08_unit/md/")
-;(setq default-directory "~/bin/github/2eso/05_mu/md")
+(setq default-directory "~/Documents/56_bulletjournal/org")					;
 ;
 ;
 ;
@@ -117,8 +121,8 @@ trash-directory "~/.local/share/Trash/files")
 ;
 ;
 ;;; #10 Plantilles per a capturar
-(setq org-directory "~/Documents/org")
-(setq org-default-notes-file "~/Documents/notes")
+(setq org-directory "~/Documents/56_bulletjournal/org")
+(setq org-default-notes-file "~/Documents/56_bulletjournal/notes")
 ;
 ;
 ;
@@ -131,21 +135,21 @@ trash-directory "~/.local/share/Trash/files")
 ;;; #12 Capturar per templates
 ;; Capture templates for: TODO tasks, Notes, appointments, phone calls, meetings, and org-protocol
 (setq org-capture-templates
-      (quote (("t" "TODO" entry (file "~/Documents/org/captura.org")
+      (quote (("t" "TODO" entry (file "~/Documents/56_bulletjournal/org/captura.org")
                "* TODO %?\n%U\n%a\n" :clock-in t :clock-resume t)
-              ("r" "Respond" entry (file "~/Documents/org/captura.org")
+              ("r" "Respond" entry (file "~/Documents/56_bulletjournal/org/captura.org")
                "* NEXT Respond to %:from on %:subject\nSCHEDULED: %t\n%U\n%a\n" :clock-in t :clock-resume t :immediate-finish t)
-              ("n" "Note" entry (file "~~/Documents/org/captura.org")
+              ("n" "Note" entry (file "~~/Documents/56_bulletjournal/org/captura.org")
                "* %? :NOTE:\n%U\n%a\n" :clock-in t :clock-resume t)
-              ("j" "Journal" entry (file+datetree "~/Documents/org/diary.org")
+              ("j" "Journal" entry (file+datetree "~/Documents/56_bulletjournal/org/diary.org")
                "* %?\n%U\n" :clock-in t :clock-resume t)
-              ("w" "Org-protocol" entry (file "~/Documents/org/captura.org")
+              ("w" "Org-protocol" entry (file "~/Documents/56_bulletjournal/org/captura.org")
                "* TODO Review %c\n%U\n" :immediate-finish t)
-              ("m" "Meeting" entry (file "~/Documents/org/captura.org")
+              ("m" "Meeting" entry (file "~/Documents/56_bulletjournal/org/captura.org")
                "* MEETING with %? :MEETING:\n%U" :clock-in t :clock-resume t)
-              ("p" "Phone call" entry (file "~/Documents/org/captura.org")
+              ("p" "Phone call" entry (file "~/Documents/56_bulletjournal/org/captura.org")
                "* PHONE %? :PHONE:\n%U" :clock-in t :clock-resume t)
-              ("h" "Habit" entry (file "~/Documents/org/captura.org")
+              ("h" "Habit" entry (file "~/Documents/56_bulletjournal/org/captura.org")
                "* NEXT %?\n%U\n%a\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:REPEAT_TO_STATE: NEXT\n:END:\n"))))
 ;
 ;
@@ -201,4 +205,46 @@ trash-directory "~/.local/share/Trash/files")
 ;
 ;;; #20 Activar numbres de linea
 (global-linum-mode t)
-
+;;
+;;
+;;
+;;; #21 Configuració org-ref
+;; Sistema de configuració de referències
+(setq org-ref-notes-directory "~/Documents/56_bulletjournal/org/bib"
+      org-ref-bibliography-notes "~/Documents/56_bulletjournal/org/bib/index.org"
+      org-ref-default-bibliography '("~/Documents/56_bulletjournal/org/bib/index.bib")
+      org-ref-pdf-directory "~/Documents/56_bulletjournal/org/bib/lib/")
+(setq reftex-bibpath-environment-variables
+  '("~/Documents/56_bulletjournal/org/bib/"))
+;;
+;;
+;;; #22 Configuració helm-bibtex
+(setq helm-bibtex-bibliography "~/Documents/56_bulletjournal/org/bib/index.bib" ;; where your references are stored
+      helm-bibtex-library-path "~/Documents/56_bulletjournal/org/bib/index.bib" ;; where your pdfs etc are stored
+      helm-bibtex-notes-path "~/Documents/56_bulletjournal/org/bib/index.org" ;; where your notes are stored
+      bibtex-completion-bibliography "~/Documents/56_bulletjournal/org/bib/index.bib" ;; writing completion
+      bibtex-completion-notes-path "~/Documents/56_bulletjournal/org/bib/index.org"
+)
+;;
+;;
+;; #23 Pandoc
+;; default options for all output formats
+(setq org-pandoc-options '((standalone . t)))
+;; cancel above settings only for 'docx' format
+(setq org-pandoc-options-for-docx '((standalone . nil)))
+;; special settings for beamer-pdf and latex-pdf exporters
+(setq org-pandoc-options-for-beamer-pdf '((latex-engine . "xelatex")))
+(setq org-pandoc-options-for-latex-pdf '((latex-engine . "xelatex")))
+;;
+;;
+;; #24 Pandoc menu
+(with-eval-after-load 'ox
+  (require 'ox-pandoc))
+;;
+;;
+;; #25 Feeds
+;; Somewhere in your .emacs file
+(setq elfeed-feeds
+      '("http://nullprogram.com/feed/"
+        "http://planet.emacsen.org/atom.xml"
+	"http://feeds.feedburner.com/ugeekblog"))
