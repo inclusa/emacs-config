@@ -3,10 +3,15 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/Documents/56_bulletjournal/org/~~/Documents/56_bulletjournal/org/captura.org")
- (front-context-string . "* Memòria Fonana")
- (rear-context-string . "06-30 dv 01:42]\n")
- (position . 33950))
+ (filename . "~/Documents/56_bulletjournal/org/diary.org")
+ (front-context-string . "**** Formació TI")
+ (rear-context-string . "18-01-25 dijous\n")
+ (position . 7810))
+("05 6pri"
+ (filename . "~/bin/github/6pri/")
+ (front-context-string . "01_angles\n  drwx")
+ (rear-context-string . "96 set 14 18:34 ")
+ (position . 231))
 ("01 full.org"
  (filename . "~/Documents/56_bulletjournal/org/full.org")
  (front-context-string . "\n\n#+TITLE: Bulle")
@@ -27,18 +32,13 @@
  (front-context-string . "01_daniel\n  drwx")
  (rear-context-string . "96 set 16  2016 ")
  (position . 234))
-("05 5pri"
- (filename . "~/bin/github/5pri/")
- (front-context-string . "01_socials\n  drw")
- (rear-context-string . "96 jun  3 16:56 ")
- (position . 231))
-("06 2eso"
+("06 3eso"
  (filename . "~/bin/github/2eso/")
  (front-context-string . "00_gen\n  drwxrwx")
  (rear-context-string . "96 mai  8 02:40 ")
  (position . 231))
 ("07 treball"
- (filename . "~/Documents/01_treball_2016-2017/")
+ (filename . "~/Documents/01_treball_2017-2018/")
  (front-context-string . "00_scripts\n  drw")
  (rear-context-string . "96 set 25  2016 ")
  (position . 246))

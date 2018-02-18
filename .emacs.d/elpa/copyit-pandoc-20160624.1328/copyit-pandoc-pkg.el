@@ -1,0 +1,1 @@
+(define-package "copyit-pandoc" "20160624.1328" "Copy it, yank anything!" '((emacs "24") (copyit "0.0.1") (pandoc "0.0.1")) :commit "f50d033b129d467fb517a351adf3f16cabd82a62" :url "https://github.com/zonuexe/emacs-copyit" :keywords '("convinience" "yank" "clipboard"))

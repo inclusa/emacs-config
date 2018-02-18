@@ -13,7 +13,35 @@
    (quote
     ("f091883f92e4280f5ceb6caccf4d19e11b729883f2ca8e92719adbf964313ccd" "527ad0b513378351ae2c230fc1c6edb96e02ba18cb8d44a9af75c8b18635556f" "3c7165ae3c29765af5a544d597be36292df073b7db0e95521492569ca74a7dbe" "8bd35dc1843ca4f0ddf0a56e0f1a02b71af49ca3c68a075a27a53e4f3bd431f6" "8cacab3640df65f5929429bfa7bc3980ebcfa4a3ece48f4656e3a0f5b3c02163" default)))
  '(frame-brackground-mode (quote dark))
- '(org-agenda-files (quote ("~/Documents/56_bulletjournal/org/full.org")))
+ '(keyboard-coding-system (quote utf-8-unix))
+ '(latex-inputenc-coding-alist
+   (quote
+    (("ansinew" . windows-1252)
+     ("applemac" . mac-roman)
+     ("ascii" . us-ascii)
+     ("cp1250" . windows-1250)
+     ("cp1252" . windows-1252)
+     ("cp1257" . cp1257)
+     ("cp437de" . cp437)
+     ("cp437" . cp437)
+     ("cp850" . cp850)
+     ("cp852" . cp852)
+     ("cp858" . cp858)
+     ("cp865" . cp865)
+     ("latin1" . iso-8859-1)
+     ("latin2" . iso-8859-2)
+     ("latin3" . iso-8859-3)
+     ("latin4" . iso-8859-4)
+     ("latin5" . iso-8859-5)
+     ("latin9" . iso-8859-15)
+     ("next" . next)
+     ("" . undecided)
+     ("utf8" . utf-8)
+     ("utf8x" . utf-8))))
+ '(org-agenda-files nil)
+ '(org-modules
+   (quote
+    (org-bbdb org-bibtex org-crypt org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-bullets org-checklist)))
  '(prefer-coding-system (quote utf-8))
  '(send-mail-function (quote mailclient-send-it))
  '(set-default-coding-systems (quote UTF-8))
@@ -24,14 +52,14 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+;;
+;;
+;;
 ;; #00 Definim els paràmetres per defecte
 (global-set-key "\C-cl" 'org-setore-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-iswitchb)
-;;
-;; #01 Definim el mode global per a elfeed
-(global-set-key (kbd "C-x w") 'elfeed)
 ;;
 ;;
 ;
@@ -63,7 +91,12 @@
 ;;; #23 Pandoc
 ;;; #24 Pandoc menú
 ;;; #25 Feeds
-;;
+;;; #26 Customize pomidor
+;;; #27 Augment font size
+;;; #28 Kanban
+;;; #29 Afegir data a taska DONE
+;;; #30 Line Wrapping in this buffer - Trencament de línia
+;;; #31 Definim el mode global per a elfeed
 ;;
 ;;
 ;;
@@ -195,15 +228,24 @@ trash-directory "~/.local/share/Trash/files")
 ;;  (yas-global-mode 1))
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
-;
-;
-;
+;;
+;;
+;;
 ;;; #18 Configuració de GIT amb el MAGIT
 (global-set-key (kbd "C-x g") 'magit-status)
-;
-;
-;
-;;; #20 Activar numbres de linea
+;;
+;;
+;;
+;;; #19 Configuració de Bullets
+(load "~/.emacs.d/lips/org-bullets.el")
+;(setq 'org-bullets-mode)
+;(add-hook 'org-bullet-mode)
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;;
+;;
+;;
+;;; #20 Activar nombres de linea
 (global-linum-mode t)
 ;;
 ;;
@@ -248,3 +290,54 @@ trash-directory "~/.local/share/Trash/files")
       '("http://nullprogram.com/feed/"
         "http://planet.emacsen.org/atom.xml"
 	"http://feeds.feedburner.com/ugeekblog"))
+;;
+;;
+;; #26 Customize pomidor
+(setq pomidor-sound-tick nil
+      pomidor-sound-tack nil)
+;;
+;;
+;; #27 Augment font size
+;; Font: http://sachachua.com/blog/2006/09/emacs-changing-the-font-size-on-the-fly/
+(defun alfons/increase-font-size ()
+  (interactive)
+  (set-face-attribute 'default
+                      nil
+                      :height
+                      (ceiling (* 1.10
+                                  (face-attribute 'default :height)))))
+(defun alfons/decrease-font-size ()
+  (interactive)
+  (set-face-attribute 'default
+                      nil
+                      :height
+                      (floor (* 0.9
+                                  (face-attribute 'default :height)))))
+(global-set-key (kbd "C-+") 'alfons/increase-font-size)
+(global-set-key (kbd "C--") 'alfons/decrease-font-size)
+;;
+;;
+;;
+;; #28 Kanban
+(load "~/.emacs.d/lisp/org-kanban.el")
+(setq 'org-kanban)
+;;
+;; #29 Afegir data a tasca DONE
+(setq org-log-done 'time)
+;;
+;; #30 Line Wrapping in this buffer
+(defun my-compilation-mode-hook ()
+  (setq truncate-lines nil) ;; automatically becomes buffer local
+  (set (make-local-variable 'truncate-partial-width-windows) nil))
+(add-hook 'compilation-mode-hook 'my-compilation-mode-hook)
+;;
+;; #31 Definim el mode global per a elfeed
+(global-set-key (kbd "C-x w") 'elfeed)
+;;
+;; #32 UTF-8 Per defecte
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
+;;
+;; #33 Configuració de Kanban
+(load "~/.emacs.d/lips/org-kanban.el")

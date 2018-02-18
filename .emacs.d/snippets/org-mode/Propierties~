@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Propierties
+# key: Pro
+# --
+:PROPERTIES:
+:ID:       $1
+:MOTIU:    $2
+:TELEFON:  $3
+:WEB:      $4
+:CITA:     $5
+:MEMO:     $6  
+:END:

@@ -2,266 +2,94 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/alfons/Documents/56_bulletjournal/org/~~/Documents/56_bulletjournal/" . "org/")
- ("/home/alfons/Documents/56_bulletjournal/org/~~/Documents/" . "56_bulletjournal/")
- ("/home/alfons/Documents/56_bulletjournal/org/~~/" . "Documents/")
- ("/home/alfons/bin/github/rails/" . "_posts/")
- ("/home/alfons/.emacs.d/snippets/" . "markdown-mode/")
- ("/home/alfons/bin/github/2eso/02_fq/" . "03_unit/")
- ("/home/alfons/bin/github/2eso/01_gh/06_unit/" . "md/")
- ("/home/alfons/bin/github/2eso/01_gh/" . "06_unit/")
- ("/home/alfons/bin/github/2eso/" . "01_gh/")
- ("/home/alfons/Documents/10_fills/01_daniel/2eso/01_angles/" . "03_llibres/")
- ("/home/alfons/Documents/10_fills/01_daniel/2eso/" . "01_angles/")
- ("/home/alfons/Documents/10_fills/01_daniel/" . "2eso/")
- ("/home/alfons/bin/github/ruby/" . "_posts/")
- ("/home/alfons/Documents/56_bulletjournal/org/" . "bib/")
- ("/home/alfons/Documents/10_fills/daniel/2eso/01_angles/" . "03_llibres/")
- ("/home/alfons/Documents/10_fills/daniel/2eso/" . "01_angles/")
- ("/home/alfons/Documents/10_fills/daniel/" . "2eso/")
+ ("/home/alfons/Documents/10_fills/01_daniel/3eso/" . "05_ang/")
+ ("/home/alfons/Documents/10_fills/01_daniel/" . "3eso/")
  ("/home/alfons/Documents/10_fills/" . "01_daniel/")
- ("/home/alfons/Documents/60_informatica/14_programacio/" . "04_ruby/")
- ("/home/alfons/Documents/60_informatica/" . "14_programacio/")
- ("/home/alfons/.emacs.d/" . "snippets/")
- ("/home/alfons/bin/github/emacs/" . "_posts/")
- ("/home/alfons/bin/github/inclusa.github.io/" . "_posts/")
- ("/home/alfons/bin/github/" . "inclusa.github.io/")
+ ("/home/alfons/Documents/01_treball_2017-2018/05_comu/08_tic/" . "02_mestreacasa/")
+ ("/home/alfons/Documents/01_treball_2017-2018/05_comu/" . "08_tic/")
+ ("/home/alfons/bin/github/" . "6pri/")
  ("/home/alfons/bin/" . "github/")
- ("/home/alfons/Documents/01_treball_2016-2017/02_fontanars/01_avaluacio/" . "02_2trim/")
- ("/home/alfons/Documents/01_treball_2016-2017/02_fontanars/" . "01_avaluacio/")
- ("/home/alfons/" . "tmp/")
- ("/home/alfons/Documents/01_treball_2016-2017/01_la_font/01_avaluacio/02_2trim/" . "md/")
- ("/home/" . "alfons/")
- ("/" . "home/")
- ("/home/alfons/Documents/01_treball_2016-2017/01_la_font/01_avaluacio/" . "02_2trim/")
- ("/home/alfons/Documents/01_treball_2016-2017/01_la_font/" . "01_avaluacio/")
- ("/home/alfons/Documents/01_treball_2016-2017/" . "01_la_font/")
- ("/home/alfons/Documents/56_bulletjournal/" . "org/")
- ("/home/alfons/Documents/" . "01_treball_2016-2017/")
+ ("/home/alfons/" . ".emacs.d/")
+ ("/home/alfons/Documents/01_treball_2017-2018/01_montesa/01_ini/" . "02_ini_ord/")
+ ("/home/alfons/Documents/01_treball_2017-2018/01_montesa/" . "04_confidencial/")
+ ("/home/alfons/Documents/01_treball_2017-2018/" . "05_comu/")
+ ("/home/alfons/Documents/" . "10_fills/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/alfons/"
- "/home/alfons/tmp/"
- "/home/alfons/sync/rslsync/bujo/"
- "/home/alfons/tmp/conect/"
- "/home/alfons/.emacs.d/"
  "/home/alfons/Documents/56_bulletjournal/org/"
- "/home/alfons/Documents/56_bulletjournal/org/bib/"
- "/home/alfons/Documents/01_treball_2016-2017/"
- "/home/alfons/Documents/10_fills/01_daniel/2eso/02_gh/09_ud09/"
- "/home/alfons/Documents/10_fills/"
- "/home/alfons/bin/github/rails/_posts/"
- "/home/alfons/bin/github/2eso/01_gh/09_unit/md/"
- "/home/alfons/bin/github/5pri/"
- "/home/alfons/bin/github/2eso/"
- "/home/alfons/Documents/56_bulletjournal/org/~~/Documents/56_bulletjournal/org/"
- "/home/alfons/bin/github/emacs/_posts/"
- "/home/alfons/bin/github/inclusa.github.io/_posts/"
- "/home/alfons/bin/github/inclusa.github.io/"
- "/home/alfons/bin/github/ruby/_posts/"
- "/home/alfons/bin/github/2eso/05_mu/md/"
- "/home/alfons/bin/github/2eso/01_gh/08_unit/a4/"
- "/home/alfons/bin/github/2eso/01_gh/06_unit/md/"
- "/home/alfons/bin/github/2eso/01_gh/07_unit/md/"
- "/home/alfons/.emacs.d/snippets/markdown-mode/"
- "/home/alfons/Documents/56_bulletjournal/org/examples/"
- "/home/alfons/.emacs.d/snippets/"
- "/home/alfons/bin/github/2eso/02_fq/03_unit/"
- "/home/alfons/github/"
- "/home/alfons/Documents/10_fills/01_daniel/2eso/01_angles/03_llibres/"
- "/home/alfons/Documents/10_fills/daniel/2eso/01_angles/03_llibres/"
- "/home/alfons/Documents/56_bulletjournal/org/temp/"
- "/home/alfons/Documents/01_treball_2016-2017/01_la_font/01_avaluacio/02_2trim/md/"
- "/home/alfons/Documents/01_treball_2016-2017/02_fontanars/01_avaluacio/02_2trim/md/"
- "/home/alfons/Documents/56_bulletjournal/"
- "/"
- "/Documents/"
- "/home/alfons/Documents/bulletjournal/"
+ "/home/alfons/"
+ "/home/alfons/Documents/10_fills/01_daniel/3eso/05_ang/"
+ "/home/alfons/Documents/"
+ "/home/alfons/Documents/tmp/"
+ "/home/alfons/Documents/01_treball_2017-2018/05_comu/08_tic/02_mestreacasa/"
+ "/home/alfons/.emacs.d/"
+ "/home/alfons/bin/github/6pri/"
+ "/home/alfons/Documents/01_treball_2017-2018/01_montesa/04_confidencial/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "bujo17.org"
  ".emacs"
- "a.md"
- "a.pdf"
- "1.md"
- "orgmode.md"
- "slides.md"
+ "madame.md"
+ "acta.md"
+ "z.html"
+ "tac.html"
+ ".emacs.desktop"
  "bookmarks"
- "full.org"
- "full.org_archive"
- ".bookmarks.swp"
+ "captura.sync-conflict-20170716-011656-EBAAATK.org"
+ "alumnes.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/alfons/" (22886 62492 374440 529000) ".swn" ".vimrc" ".moc/" ".kde/" ".ACCV/" ".swh" ".dvdrip/" ".sane/" ".wget-hsts" ".wireshark/" ".gem/" ".gnome/" ".zshrc.pre-oh-my-zsh" ".twidgerc" ".conky-bk" ".xmind/" ".xpra/" ".aptitude/" ".stunnixws/" ".conkyrc~" ".gitconfig" "Dropbox/" ".node_repl_history" ".icons/" ".rvmrc" ".atom/" ".claws-mail/" ".python_history" ".gtickrc" "wget-log" ".appcfg_nag" ".goutputstream-23V7SW" ".bash_profile" "full.org_archive" ".fakexinerama" ".sudo_as_admin_successful" ".bashrc" ".speech-dispatcher/" ".xsession-errors" ".conkyrc" ".asunder" ".conkyrc_bk" ".dnote-upgrade" ".conky/" ".xsession-errors.old" "fills/" ".conkyrc_" ".links2/" ".denemo-1.1.0/" ".emacs.d/" ".list.tasks" ".gnupg/" ".bash_aliases" "bookmarks~" "Programa/" ".fonts/" ".lyx/" ".mission-control/" "Documents/" ".tomighty/" ".descartes/" ".anki/" ".tor/" ".rpmdb/" "VirtualBox VMs/" "wget-log.2" ".ICEauthority" ".stopmotion/" ".PlayOnLinux/" ".goutputstream-OYP1SW" ".FBReader/" ".zcompdump" ".xournal/" ".condarc" "inclusa.pub" ".freerdp/" ".minecraft/" ".dnote" "AnacondaProjects/" ".freemind/" ".bash_history" "Públic/" ".nv/" ".weather/" ".gnome2_private/" ".TelegramDesktop/" "C:\\nppdf32Log\\debuglog.txt" ".ninja_ide/" "Vídeos/" "anaconda3/" ".pyrenamer/" ".SciTEUser.properties" ".ConkyWizardTheme/" ".dbus/" ".xscreensaver" ".nowplaying/" ".dia/" ".activestate/" ".irssi/" ".task/" ".irb-history" ".sbd/" ".ghc/" ".selected_editor" ".gitk" ".ConkyWizardLaunch" ".qalculate/" ".viminfo" ".pki/" ".telegram-6b3c6d017754f745c6740365d29de1ba/" ".bash_logout" ".lastpass/" ".pencil/" "etc/" ".android/" ".fehbg" ".esd_auth" "Baixades/" ".etracer/" ".pulse-cookie" ".ActiveGrid IDE" ".geeknote/" "tmp/" ".swo" ".tkremindrc" ".gnuplot_history" ".remmina/" ".kchmviewer/" ".gtk-custom-papers" ".v8flags.3.14.5.9.root.json" ".fonts.conf" ".bashrc-miniconda2.bak" ".komodoide/" ".swl" ".mkshrc" ".gvfs/" ".tuxtype/" ".dropbox/" ".arista/" ".sqlite_history" "temes/" ".gksu.lock" ".scribus/" ".v8flags.3.14.5.9.alfons.json" "miniconda2/" ".config/" ".workrave/" ".InstallAnywhere/" ".zcompdump-server-5.1.1" ".compiz/" ".Xauthority" ".swj" ".cabal/" ".wine/" ".asunder_album_artist" ".fluxweatherrc" ".oracle_jre_usage/" ".xxe6/" ".remarkable/" ".copy/" ".zsh-update" ".thumbnails/" ".profile" ".zshrc" ".gphoto/" ".dnote-yaml-archived" ".goutputstream-ECPQSW" ".bluefish/" ".thunderbird/" ".swm" "full.org~" ".distlib/" ".asunder_album_title" "snap/" ".vegas/" ".bundle/" ".dvdriprc" "Library/" ".goutputstream-GLJBTW" "haking.txt" ".swf" ".mplayer/" ".unison/" ".solfege/" ".com.zerog.registry.xml" ".local/" ".bazaar/" "0_pendent/" ".gervill/" ".gimp-2.8/" "PycharmProjects/" "build_sphinx_documentation.sh" ".gramps/" "lib/" ".muttrc" ".heroku/" ".nvpy/" ".swi" ".filezilla/" ".winff/" ".CloudStationBackup/" ".dmrc" ".vidyo/" "Escriptori/" ".eclipse/" ".zotero/" ".vim/" ".gconf/" ".zshrc~" ".matplotlib/" ".netrc" ".sinadura/" "CmapToolsLogs/" ".goutputstream-SWCDTW" ".goutputstream-XI8QUW" ".git-credentials" ".cache/" ".java/" "sinadura/" ".VirtualBox/" "temp/" ".rnd" "_bookmarks" ".ssh/" ".swp" ".goutputstream-ZVDNTW" ".moonchild productions/" ".e.swp" ".goutputstream-VQ2SSW" ".calibre_calibre GUI.lock" "remind/" ".taskrc" "estudi/" ".macromedia/" "a.md" ".dingrc" ".Skype/" ".goutputstream-QO9HTW" ".xbindkeysrc.scm" ".lesshst" ".goutputstream-XMEQSW" ".asunder_album_genre" ".reminders" ".shutter/" ".subversion/" "src/" ".pip/" ".KatamotzAlumnos-253/" ".mozilla/" ".ipython/" ".pulse/" ".temperature" ".vnc/" "bin/" ".xine/" "aeat/" ".emacs~" ".python-eggs/" ".gnome2/" ".xinputrc" ".swk" ".resolver/" "Música/" ".so_sane_state" ".swt/" "JClic/" ".kompozer.net/" "Voice Files/" ".pam_environment" ".curlrc" ".openshot/" ".nano_history" ".dnoterc" ".gtk-bookmarks" ".edu.xtec.properties" ".oh-my-zsh/" ".now.json" "full.org_archive~" ".bzr.log" ".fluxbox/" ".exe/" ".mysql_history" "My_Cmaps/" ".npm/" ".xvkbd" "wget-log.1" ".node-gyp/" ".hplip/" ".texmf-var/" ".xsession" ".wbar_" ".dropbox-dist/" "GitBook/" ".screenlets/" ".gstreamer-0.10/" ".denemo-0.9.2/" ".conkyrc-bk2" "sync/" ".idlerc/" ".audacity-data/" ".conda/" "mbox" ".swg" ".pomosh/" ".elinks/" ".galculator" ".cddbslave/" ".cmaptools/" ".vidalia/" "iso/" ".conkyrc-bk" ".adobe/" ".PyCharmEdu10/" ".solfegerc" ".forever/" "Mail/" ".ActiveState/" "Imatges/" ".minetest/" ".zsh_history" ".rvm/" "My Digital Editions/" ".:7-fakexinerama" ".emacs" ".uuid" "PlayOnLinux's virtual drives/" "bookmarks" ".install4j" ".nvpy.cfg" ".pal/" ".elfeed/" ".zlogin" ".anaconda/" ".markdown.swp" ".Fontmatrix/" "../" "./")
+ ("/home/alfons/Documents/56_bulletjournal/org/" (23129 45691 59877 548000) "full.tex" "captura.org" "full.sync-conflict-20171129-182820-EBAAATK.org" "bujo18.org~" "captura.org~" "mapa" "full.sync-conflict-20170916-121049-EBAAATK.org_archive" "bib/" "tic.org" ".git/" "#diary.sync-conflict-20170916-121049-EBAAATK.org#" "full.org_done" "bujo17.org" "personal/" "diary.org~" "diary.sync-conflict-20170716-011656-EBAAATK.org" "image/" "captura.sync-conflict-20170916-121049-EBAAATK.org" "full.sync-conflict-20170916-121049-EBAAATK.org" "captura.org_archive" "full.sync-conflict-20170716-011656-EBAAATK.org" "full.tex~" "./" "captura.org_archive~" "bujo17.org_archive" "full.org~" "full.pdf" "examples/" "bujo18.org" ".DS_Store" "prova.org" "prova.org~" "bujo.org~" "diary.sync-conflict-20171129-182820-EBAAATK.org" "diary.org" "diary.sync-conflict-20170916-121049-EBAAATK.org" "full.org_archive~" "pdf/" "../" "captura.sync-conflict-20170716-011656-EBAAATK.org" "full.sync-conflict-20170716-011656-EBAAATK.org_archive" "~~/" "db/")
 
- ("/home/alfons/Documents/56_bulletjournal/org/" (22886 60624 51416 189000) "full.tex" "captura.org" "captura.org~" "mapa" "full.org_archive" "bib/" ".git/" "full.org" "#diary.org#" "full.org_done" "diary.org~" "image/" "captura.org_archive" "full.tex~" "./" "captura.org_archive~" "full.org~" "full.pdf" "examples/" "diary.org" "full.org_archive~" "pdf/" "../" "~~/" "db/")
+ ("/home/alfons/" (23128 15294 719464 229000) ".swn" ".vimrc" ".moc/" ".kde/" ".ACCV/" ".swh" ".dvdrip/" ".sane/" ".wget-hsts" ".wireshark/" ".gem/" ".gnome/" ".zshrc.pre-oh-my-zsh" ".twidgerc" ".conky-bk" ".xmind/" ".xpra/" ".aptitude/" ".stunnixws/" ".conkyrc~" ".gitconfig" "Dropbox/" ".zenmap/" ".node_repl_history" ".icons/" ".rvmrc" ".atom/" ".claws-mail/" ".python_history" ".gtickrc" "wget-log" ".appcfg_nag" ".goutputstream-23V7SW" ".bash_profile" "configuration/" "full.org_archive" ".fakexinerama" ".sudo_as_admin_successful" ".bashrc" ".speech-dispatcher/" ".xsession-errors" ".conkyrc" ".asunder" ".conkyrc_bk" ".dnote-upgrade" ".conky/" ".xsession-errors.old" "fills/" ".conkyrc_" ".links2/" ".denemo-1.1.0/" ".emacs.d/" ".list.tasks" ".gnupg/" ".bash_aliases" "bookmarks~" ".fonts/" ".lyx/" ".mission-control/" "Documents/" ".tomighty/" ".descartes/" ".anki/" ".tor/" ".rpmdb/" "Ubuntu One/" "VirtualBox VMs/" "wget-log.2" ".ICEauthority" ".stopmotion/" ".PlayOnLinux/" ".goutputstream-OYP1SW" ".FBReader/" ".zcompdump" ".xournal/" "RMAIL" ".condarc" "inclusa.pub" ".nvidia-settings-rc" ".multirust/" ".freerdp/" ".minecraft/" ".dnote" "AnacondaProjects/" ".freemind/" ".bash_history" "Públic/" ".nv/" ".weather/" ".gnome2_private/" ".TelegramDesktop/" "vm/" ".ninja_ide/" "Vídeos/" "anaconda3/" ".pyrenamer/" ".SciTEUser.properties" ".vagrant.d/" ".ConkyWizardTheme/" ".dbus/" ".xscreensaver" ".nowplaying/" ".dia/" ".activestate/" ".irssi/" ".task/" ".irb-history" ".sbd/" ".ghc/" ".selected_editor" ".gitk" ".ConkyWizardLaunch" ".qalculate/" ".viminfo" ".pki/" ".telegram-6b3c6d017754f745c6740365d29de1ba/" ".bash_logout" ".lastpass/" ".pencil/" ".android/" "mozilla.pdf" ".fehbg" ".esd_auth" "Baixades/" ".etracer/" ".pulse-cookie" ".ActiveGrid IDE" ".geeknote/" "tmp/" ".calendar/" "sent" ".swo" ".tkremindrc" ".gnuplot_history" ".remmina/" ".kchmviewer/" ".gtk-custom-papers" ".v8flags.3.14.5.9.root.json" ".fonts.conf" ".bashrc-miniconda2.bak" ".komodoide/" ".swl" ".mkshrc" ".gvfs/" ".tuxtype/" ".dropbox/" ".arista/" ".sqlite_history" "temes/" ".gksu.lock" ".scribus/" ".v8flags.3.14.5.9.alfons.json" "miniconda2/" ".config/" ".workrave/" ".InstallAnywhere/" ".zcompdump-server-5.1.1" ".compiz/" ".Xauthority" ".swj" ".cabal/" ".wine/" ".asunder_album_artist" ".fluxweatherrc" ".newsrc.eld" ".oracle_jre_usage/" ".xxe6/" ".remarkable/" ".copy/" ".zsh-update" ".thumbnails/" ".composer/" ".profile" ".zshrc" ".gphoto/" ".dnote-yaml-archived" ".goutputstream-ECPQSW" ".bluefish/" ".thunderbird/" ".swm" "full.org~" ".distlib/" ".asunder_album_title" "snap/" ".vegas/" ".bundle/" ".dvdriprc" "Library/" ".goutputstream-GLJBTW" ".alsaplayer/" "haking.txt" ".swf" ".mplayer/" ".unison/" ".solfege/" ".com.zerog.registry.xml" ".local/" ".bazaar/" "0_pendent/" ".gervill/" ".gimp-2.8/" "PycharmProjects/" "build_sphinx_documentation.sh" ".gramps/" "lib/" ".muttrc" ".heroku/" ".nvpy/" "dead.letter" ".swi" ".sophiware/" ".filezilla/" ".winff/" ".CloudStationBackup/" "Screenshot_2017-07-05-20-41-24.jpg" ".dmrc" ".vidyo/" "Escriptori/" ".eclipse/" ".zotero/" ".vim/" ".gconf/" ".zshrc~" ".matplotlib/" ".cargo/" ".netrc" ".sinadura/" "CmapToolsLogs/" ".goutputstream-SWCDTW" ".goutputstream-XI8QUW" ".git-credentials" ".cache/" ".java/" "sinadura/" ".VirtualBox/" ".rnd" "_bookmarks" ".ssh/" ".swp" ".goutputstream-ZVDNTW" ".moonchild productions/" ".e.swp" "torrent/" ".goutputstream-VQ2SSW" ".calibre_calibre GUI.lock" "remind/" ".taskrc" "estudi/" ".macromedia/" "a.md" ".dingrc" ".Skype/" ".goutputstream-QO9HTW" ".xbindkeysrc.scm" ".lesshst" ".goutputstream-XMEQSW" ".asunder_album_genre" ".rustup/" ".reminders" ".shutter/" ".subversion/" "src/" ".pip/" ".KatamotzAlumnos-253/" ".mozilla/" ".ipython/" ".pulse/" ".temperature" ".vnc/" "virtualenvs/" ".fzf/" "bin/" ".xine/" "aeat/" ".emacs~" ".python-eggs/" ".gnome2/" ".xinputrc" ".swk" ".resolver/" "Música/" ".so_sane_state" ".swt/" "JClic/" ".kompozer.net/" "Voice Files/" ".pam_environment" ".curlrc" ".openshot/" ".nano_history" ".dnoterc" ".gtk-bookmarks" ".edu.xtec.properties" ".oh-my-zsh/" ".now.json" "full.org_archive~" ".bzr.log" ".newsrc" ".fluxbox/" ".exe/" ".mysql_history" "My_Cmaps/" ".npm/" ".xvkbd" "wget-log.1" ".node-gyp/" ".hplip/" ".texmf-var/" ".xsession" ".wbar_" ".dropbox-dist/" "GitBook/" ".screenlets/" ".gstreamer-0.10/" ".zprofile" ".denemo-0.9.2/" ".conkyrc-bk2" "sync/" ".idlerc/" ".audacity-data/" ".conda/" "mbox" ".swg" ".pomosh/" ".elinks/" ".galculator" ".cddbslave/" ".cmaptools/" ".vidalia/" "iso/" ".conkyrc-bk" ".adobe/" ".PyCharmEdu10/" "#.emacs#" ".solfegerc" ".forever/" "Mail/" ".ActiveState/" "Imatges/" ".minetest/" ".zsh_history" ".rvm/" "My Digital Editions/" ".:7-fakexinerama" ".emacs" ".uuid" "PlayOnLinux's virtual drives/" "bookmarks" ".install4j" ".nvpy.cfg" ".pal/" "News/" ".elfeed/" ".zlogin" ".anaconda/" ".markdown.swp" ".Fontmatrix/" "../" "./")
 
- ("/home/alfons/sync/" (22874 7549 629174 786000) "rslsync/" "./" "../")
+ ("/home/alfons/Documents/56_bulletjournal/" (23117 220 217332 294000) "./" ".emacs.desktop" ".DS_Store" ".stfolder/" "org/" "../")
 
- ("/home/alfons/sync/rslsync/" (22874 8006 77168 546000) "resilio-sync_x64.tar.gz" "rslsync" "bujo/" "./" ".sync/" "LICENSE.TXT" "../")
+ ("/home/alfons/.emacs.d/" (23097 60401 756384 431000) "snippets/" "ido.last~" "pandoc-mode/" "lisp/" "auto-save-list/" "elpa/" "bookmarks~" "etc/" "tramp" "./" "notes" "ido.last" ".emacs.desktop" "tutorial/" "games/" "../" "url/" "bookmarks" ".emacs.desktop.lock")
 
- ("/home/alfons/sync/rslsync/bujo/md/" (22885 29366 442055 227000) "#orgmode.md#" "orgmode.md~" ".#orgmode.md" "./" "orgmode.md" "../")
+ ("/home/alfons/Documents/10_fills/01_daniel/3eso/05_ang/" (23056 53963 329590 709000) "./" "controls/" "english/" "../")
 
- ("/home/alfons/tmp/" (22878 65481 105576 507000) ".tmp/" "prova.rb" "Rabbit(en) - Presentation with RD.pdf" "1.pdf" "notebook/" "1.md~" "a.rb" "1.md" "C:\\nppdf32Log\\debuglog.txt" "d.rd" "debian.png" "b.rb~" "now/" "hola.rb~" "a.md~" "./" "tex/" "c.rb~" "a.tex" "_posts/" "b_multi.pdf" "1.rb" "a.rb~" "conect/" "a.rd" "3.rb" "hola.rb" "c.rb" "a.md" "bd/" ".a.md.latex.pandoc" "../" "b.rb" "share/" "b.rd")
+ ("/home/alfons/Documents/10_fills/01_daniel/3eso/" (23016 55463 927868 484000) "07_val/" "11_ef/" "09_mus/" "04_cas/" "./" ".DS_Store" "10_ini/" "00_plan/" "05_ang/" ".stfolder/" "06_mat/" "../" "01_fq/" "12_pla/" "02_bio/" "08_gh/" "03_inf/")
 
- ("/home/alfons/.emacs.d/" (22878 64886 525587 755000) "snippets/" "ido.last~" "lisp/" "auto-save-list/" "elpa/" "bookmarks~" "etc/" "tramp" "./" "notes" "ido.last" ".emacs.desktop" "tutorial/" "games/" "../" "url/" "bookmarks" ".emacs.desktop.lock")
+ ("/home/alfons/Documents/10_fills/01_daniel/" (22970 54859 29417 292000) "ies/" "odt/" "1eso/" "inkscape/" "scribus/" "pendent/" "genealogic/" "xmind/" "txt/" "musica/" "tmp/" "./" "evolutiva/" "conceptes/" "autoritzacions/" "2eso/" "3eso/" "programacions/" "slides/" "kanban/" "epub/" "blog/" "src/" "english/" "pdf/" "../" "medi/" "biografies/" "portades/" "arxiu/")
 
- ("/home/alfons/bin/github/ruby/_posts/" (22872 27684 931711 565000) "2017-05-26-arguments-i-valor-retornat-en-bloc.md" "2017-06-14-45-Mòduls.md" "2017-06-13-44-Classes.md" "2017-05-26-proc.md" "2017-05-02-matrix.md" "2017-04-17-nombres.md" "2017-06-05-codecademy.md" "2017-04-13-Iniciant.md" "2017-04-18-strings.md" "2017-06-12-43-Sintaxi.md" "2017-05-24-herencia.md" "2017-05-20-keyboard-argument.md" "2017-06-12-43-Sintaxi.md~" "2017-05-19-splat.md" "2017-06-13-44-Classes.md~" "2017-05-23-propietats-metodes-accessors.md" "2017-06-16-49-Estructures-de-control.md" "2017-04-21-operadores-comparacio.md" "2017-04-14-variables_02.md" "2017-05-26-variables-de-clase.md" "2017-06-16-48-Blocs-i-Iteradors.md" "2017-05-17.md" "2017-06-16-48-Blocs-i-Iteradors.md~" "2017-04-14-variables_01.md" "2017-04-27-each.markdown" "2017-05-26-polimorfisme.md" "./" "2017-05-18-metodes.md" "2017-04-29-range.md" "2017-04-14-Comentaris.md" "2017-05-26-metodes-de-classe.md" "2017-04-30-while-until.md" "2017-06-15-47-Hashes.md~" "2017-06-18-50-Expressions-regulars.md~" "2017-04-20-sintaxis.md" "2017-04-13-Install.md" "2017-04-23-condicions.md" "2017-06-10-Entorn-Oh-My-zsh.md" "2017-06-14-45-Mòduls.md~" "2017-04-25-case.md" "2017-06-11-42-Problema-01.md" "2017-05-21-classes-objectes.md" "2017-04-28-operacons-llistes.md" "2017-06-14-46-Arrays.md~" "2017-05-22-initialize.md" "2017-05-25-alcan-metodes.md" "2017-04-15-operadors.md" "2017-04-22-operadors-logics.md" "2017-04-19-entrada-eixida.md" "2017-05-16-hashes-operations.md" "2017-05-14-hashes.md" "../" "2017-05-26-alcan-variables-en-un-bloc.md" "2017-06-14-46-Arrays.md" "2017-04-15-variables-alc.md" "2017-04-24-operador-ternari.md" "2017-05-01-times-upto-downto.md" "2017-05-26-metodes-que-reben-blocs.md" "2017-06-11-42-Problema-01.md~" "2017-06-15-47-Hashes.md" "2017-06-18-50-Expressions-regulars.md" "2017-04-26-llistes.md" "2017-06-16-49-Estructures-de-control.md~")
+ ("/home/alfons/Documents/10_fills/" (22998 40310 73529 524000) "01_daniel/" "06_xmind_foto/" "02_mireia/" "./" "../" "04_recursos/" "03_bloc/" "05_templates/")
 
- ("/home/alfons/bin/github/inclusa.github.io/_posts/" (22867 55772 856084 185000) "2016-12-08-alsamixer.md" "2017-01-19-bitacora.md" "2017-06-23-29-Navegador-lleuger.md" "2016-12-11-comandaments-vim.md" "2016-03-25-generar-pdf-amb-pandoc.md" "2016-04-03-snippets-for-vim.md" "2016-09-02-scrum.md" "2016-04-18-Bonding,-duplicant-la-velocitat-ethernet-en-server.md" "2017-06-23-29-Navegador-lleuger.md~" "2017-02-04-sed.md" "2017-06-28-32-The-Fuck.md" "2017-04-29-browser.md" "2017-05-17-ohmyzsh.md" "2017-06-23-28-Tmux.md~" "2016-12-10-copia-recurrent.md" "_site/" "2016-08-31-terminator.md" "2017-06-28-32-The-Fuck.md~" "2016-07-23-borrar.md" "./" "2016-03-25-Iniciant_el_blog.md" "2016-04-15-Vim-sintaxis-en-markdown.md" "2017-06-26-30-Compartir-arxius-amb-Python.md" "2017-06-03-rubygems.md" "2017-02-16-mail.md" "2016-05-01-ssh-missatge-de-benvinguda.md" "2016-12-07-alarma.md" "2017-06-28-32-Oh-My-Fish.md~" "2017-06-26-30-Compartir-arxius-amb-Python.md~" "2017-06-28-31-Fish-Shell.md~" "2016-07-16-renomenar.md" "2016-12-27-android.md" "2017-03-12-emacs.md" "2016-03-30-GIT-Principals-comandaments-que-utilitze.md" "2017-03-18-xifratge.md" "2016-11-06-java.md" "2016-07-11-videotutorials.md" "2017-06-28-31-Fish-Shell.md" "../" "2017-06-23-28-Tmux.md" "2017-06-28-32-Oh-My-Fish.md" "2016-10-22-css-pseudoclases.md")
+ ("/home/alfons/Documents/" (23089 25805 120669 461000) "11_ampa/" "01_treball_2017-2018/" "PDF/" "70_backups/" "images/" "Zotero/" "Anki/" "fonts.pdf" "06_bitacora/" "10_fills/" "tmp" "15_comunitat/" "./" "backup_instruccions" "53_thats_english/" "51_receptes/" "55_gtd/" "60_informatica/" "fonts.odt" "75_OrgMode/" "74_educacio_emocional/" "30_PT_oposicions/" "00/" "MumbleAutomaticCertificateBackup.p12" "40_recursos_pt/" "02_treball_docent/" "03_doc_treball/" "54_escriptura/" "12_valencia/" "01recursos/" "72_moocs/" "calibre/" "73_fonts/" "52_edutictac/" "50_personal/" "71_estrategies/" "56_bulletjournal/" "00000_problemes/" "tmp~" "01treball_fotos/" "../" "04_ACIS LOMCE/" "31_coneixment_pt/" "32_pedagogia/" "05_Backup/" "acta.md~")
 
- ("/home/alfons/bin/github/emacs/_posts/" (22877 36335 536995 361000) "2017-05-14-images.markdown" "2017-04-23-magit.markdown" "2017-03-07-zonas.markdown" "2017-05-13-bullets.markdown" "2017-03-02-arrancando.markdown" "2017-06-17-40-Bibliografia.md" "2017-03-04-ventanas.markdown" "2017-04-22-tables.markdown" "2017-03-09-cifrado.markdown" "2017-03-30-agenda.markdown" "2017-03-14-copiar.markdown" "2017-03-26-links.markdown" "_site/" "2017-03-13-notas.markdown" "2017-05-14-snippets.markdown" "./" "2017-04-02-capturar.markdown" "2017-03-11-ventanas.markdown" "2017-04-15-themes.markdown" "2017-06-12-39-Tiempo.md" "2017-03-03-zonas.markdown" "2017-04-15-bookmarks.markdown" "2017-03-08-buffer.markdown" "2017-05-15-notas.markdown" "2017-03-01-inicio.markdown" "2017-05-14-buscar.markdown" "2017-07-06-42-Pandoc.md" "2017-04-08-directorio.markdown" "2017-03-25-org.markdown" "2017-03-27-todo.markdown" "2017-03-12-unicode.markdown" "2017-05-31-numeros.markdown" "2017-04-19-columnas.markdown" "2017-03-05-ficheros.markdown" "2017-03-06-visitar.markdown" "2017-05-03-archivar.markdown" "2017-03-28-head.markdown" "2017-04-16-markdown.markdown" "../" "2017-03-10-configuracion.markdown" "2017-07-06-41-LaTeX.md" "2017-06-04-codigo.markdown" "2017-04-21-exportar.markdown" "2017-04-01-habitos.markdown" "2017-03-15-resaltado.markdown")
+ ("/home/alfons/Documents/01_treball_2017-2018/02_senyera/05_avaluacio/04_primer_trimestre/md/" (23094 44957 10136 897000) "01.md~" "./" ".#03.md" "02.md" "03.md~" "autisme" "03.md" "01.md" "../" "#03.md#")
 
- ("/home/alfons/Documents/56_bulletjournal/org/~~/Documents/56_bulletjournal/org/" (22874 5623 769201 117000) "captura.org" "captura.org~" "./" "captura.html" "../")
+ ("/home/alfons/Documents/01_treball_2017-2018/05_comu/08_tic/02_mestreacasa/" (23033 55919 691140 527000) "./" "tac.html~" "../")
 
- ("/home/alfons/bin/github/2eso/" (22871 33520 267895 137000) "00_gen/" ".git/" "03_tc/" "04_va/" "05_mu/" "LICENSE" "01_gh/" "./" "06_ca/" ".DS_Store" "02_fq/" "README.md" "07_an/" "../")
+ ("/home/alfons/bin/github/6pri/" (23000 63875 87996 479000) ".git/" "02_valencia/" "LICENSE" "06_socials/" "./" "05_naturals/" "01_angles/" "03_castella/" "04_mates/" "../")
 
- ("/home/alfons/tmp/conect/" (22869 43729 856778 488000) "deseco02.jpg" "des.jpg" "slides.md~" "deseco02.png" "conectivisme.png" "deseco01.png" "slides.pdf" "co.jpg" "aprenentatge.png" "./" "deseco01.jpg" "compe.jpg" "slides.md" "../")
+ ("/home/alfons/Documents/01_treball_2017-2018/05_comu/08_tic/" (23033 54588 187126 901000) "./" "01_formacio/" "../" "02_mestreacasa/")
 
- ("/home/alfons/sync/rslsync/bujo/" (22874 56620 69711 400000) "mapa/" "wiki/" "images/" "audio/" "./" ".sync/" "md/" "../")
+ ("/home/alfons/Documents/01_treball_2017-2018/05_comu/" (23021 11107 12055 489000) "08_tic/" "01_avaluacio/" "09_curriculo/" "./" "07_nac/" ".DS_Store" "03_santillana/" "06_pictogrames/" "10_material/" "02_programacio/" "05_bitacora/" "../" "04_calendari/")
 
- ("/home/alfons/Documents/01_treball_2016-2017/" (22856 46681 77496 691000) ".serverpenlog" "01_la_font/" "00_scripts/" "./" "03_comu/" "../" "02_fontanars/")
+ ("/home/alfons/Documents/01_treball_2017-2018/" (23007 32831 90057 331000) "01_montesa/" "02_senyera/" "03_output/" ".serverpenlog" ".git/" "04_teoria/" "05_comu/" ".montesapenlog" "00_scripts/" "./" ".DS_Store" ".stfolder/" "../")
 
- ("/home/alfons/Documents/56_bulletjournal/org/bib/" (22853 46347 547531 818000) "bibliografia.bib~" "index.bib" "index.bib~" "bibliografia.bib" "./" "lib/" "../")
+ ("/home/alfons/Documents/01_treball_2017-2018/01_montesa/04_confidencial/" (22972 62766 86442 940000) "./" "alumnes.org" "alumnes.org~" "../")
 
- ("/home/alfons/bin/github/rails/_posts/" (22845 29809 459987 81000) "2017-06-08-routes.md" "2017-06-03-models.md" "2017-05-29-presentacio.md" "./" "2017-06-06-layouts.md" "2017-06-01-primera-aplicacio.md" "2017-06-05-bases-de-dades-i-migracions.md" "../" "2017-06-02-erb-i-assets.md")
+ ("/home/alfons/bin/github/" (22970 44744 383091 687000) "jclic-repo/" "dokuwiki_/" "html/" "acis/" "Font-Awesome/" "ruby/" "haroopress/" "lectura-bk/" "cursoLatex/" "git/" "fluxbox/" "Djaneiro/" "remark/" "a/" "VTBpodcast/" "lliurex/" "python-markdown2/" "MiniCursoDjango/" "castepalabras/" "latex/" "dokuwiki/" "markdown-styles/" "springseed/" "valenparaules/" "iTerm2-Color-Schemes/" "padie/" "rabbit/" "6pri/" "jekyll/" "mailchimp/" "sincro/" "ImplantacionSistemasOperativos/" "org-bullets/" "sphinx-bootstrap-theme/" "tmp/" "emacs/" "jclic.js/" "./" "gnome-shell-extension-weather/" "pomosh/" "emacs-config/" "ugeek.github.io/" "2eso/" "oh-my-zsh/" "3eso/" "conky-Vision/" "5pri/" "bujonodi.github.io/" "bashblog/" "TrelloScrum/" "inclusa.github.io/" "productivitat/" "cli/" "org-mode/" "strapdown/" "dyslexic/" "gitbook/" "mtheme/" "tutorial/" "edutictac/" "realms-wiki/" "doctrees/" "pandoc-bootstrap-template/" "io-2012-slides/" "stackedit/" "bootstrap/" "markdown-css-themes/" "shower/" "CS50_Rails_Seminar/" "refcard/" "cloudbook/" "django-bootstrap3/" "thymer/" "wintersmith/" "lectura/" "markdowntoc/" "emacs_/" "jclic/" "infantil/" "pandoc-templates/" "_files/" "../" "jekyll.wiki/" "recetario_mdw/" "b2g-slides/" "rails/" "haroopad/" "brackets/" "conky/" "reveal.js/" "geeknote/" "python/" "elementary/")
 
- ("/home/alfons/bin/github/" (22848 13404 272589 832000) "jclic-repo/" "dokuwiki_/" "html/" "acis/" "Font-Awesome/" "ruby/" "haroopress/" "lectura-bk/" "cursoLatex/" "git/" "fluxbox/" "Djaneiro/" "remark/" "a/" "VTBpodcast/" "lliurex/" "python-markdown2/" "MiniCursoDjango/" "castepalabras/" "latex/" "dokuwiki/" "markdown-styles/" "springseed/" "valenparaules/" "iTerm2-Color-Schemes/" "padie/" "rabbit/" "jekyll/" "mailchimp/" "sincro/" "ImplantacionSistemasOperativos/" "org-bullets/" "sphinx-bootstrap-theme/" "tmp/" "emacs/" "jclic.js/" "./" "gnome-shell-extension-weather/" "pomosh/" "emacs-config/" "ugeek.github.io/" "2eso/" "oh-my-zsh/" "conky-Vision/" "5pri/" "bujonodi.github.io/" "bashblog/" "TrelloScrum/" "inclusa.github.io/" "productivitat/" "cli/" "strapdown/" "dyslexic/" "gitbook/" "mtheme/" "tutorial/" "edutictac/" "realms-wiki/" "doctrees/" "pandoc-bootstrap-template/" "io-2012-slides/" "stackedit/" "bootstrap/" "markdown-css-themes/" "shower/" "CS50_Rails_Seminar/" "refcard/" "cloudbook/" "django-bootstrap3/" "thymer/" "wintersmith/" "lectura/" "markdowntoc/" "jclic/" "infantil/" "pandoc-templates/" "_files/" "../" "jekyll.wiki/" "recetario_mdw/" "b2g-slides/" "rails/" "haroopad/" "brackets/" "conky/" "reveal.js/" "geeknote/" "python/" "elementary/")
-
- ("/home/alfons/bin/" (22848 13180 160584 860000) "bazaar/" "html/" "crypte/" "markdown/" "grunt" "missatges/" "jscript/" "conky-manager/" "backup/" "workrave/" "lliurex/" "colors/" "cron/" "tv/" "jekyll/" "txt/" "00_bin/" "node/" "tmp/" "css/" "github/" "./" "web2py/" "sqlite3/" "treball/" "pomodoro/" "ip/" "renta2012/" "scripts/" "java/" "dns/" "prog-meus/" "programari/" "bash/" "../" "go/" "web_generator/" "python/" "vim/" "markdonw_mod.css" "ubuntu/")
-
- ("/home/alfons/bin/github/rails/foo/app/views/welcome/" (22845 33237 823922 222000) "index.html.erb" "./" "index.html.erb~" "../")
-
- ("/home/alfons/Documents/10_fills/01_daniel/2eso/02_gh/09_ud09/" (22841 37692 318453 716000) "control_789.pdf" "./" "control_789.md~" "control_789.md" "generator_a4.sh" "template.tex" "../")
-
- ("/home/alfons/Baixades/" (22844 11230 373014 259000) "Dr_Jekyll_and_Mr_Hyde_poster.png" "wiki/" "mapes/" "a/" "FRASES MOTIVACIÓN/" "Telegram Desktop/" ".a.org.swp" "0_/" "a.txt" "tmp/" "video/" "1/" ".~lock.competencia-curricular-2c2ba-ciclo-infantil.odt#" "Ruby on Rails - tutoriales/" "0/" "edutictac/" "temp/" "marianeus/" "Doc_Lliurament_llibres.pdf" "fonts/" "daniel/" "deal/" "00_jekyll/" "bq/" "../" "./")
-
- ("/home/alfons/.rvm/" (22844 8716 857061 810000) "installed.at" "log/" "man/" "gemsets/" "user/" "hooks/" "environments/" "help/" "VERSION" "patches/" "contrib/" "rubies/" "LICENSE" "tmp/" "patchsets/" "docs/" "./" "config/" "gem-cache/" "gems/" "examples/" "RELEASE" "lib/" "README.md" "scripts/" "src/" "bin/" "wrappers/" "../" "archives/")
-
- ("/home/alfons/.rvm/gems/" (22844 5737 713118 170000) "ruby-2.4.0@global/" "./" "ruby-2.4.0/" "cache/" "../")
-
- ("/home/alfons/.rvm/gems/ruby-2.4.0/" (22844 8185 873071 855000) "doc/" "build_info/" "./" "gems/" "cache/" "extensions/" "specifications/" "environment" "bin/" "wrappers/" "../")
-
- ("/home/alfons/.rvm/gems/ruby-2.4.0/gems/" (22844 9882 821039 752000) "thread_safe-0.3.6/" "drjekyll-1.0.1/" "actionpack-5.1.1/" "activesupport-5.1.1/" "rubyzip-1.2.1/" "props-1.1.2/" "websocket-driver-0.6.5/" "method_source-0.8.2/" "activerecord-5.1.1/" "rack-test-0.6.3/" "nio4r-2.1.0/" "mail-2.6.6/" "nokogiri-1.8.0/" "fetcher-0.4.5/" "railties-5.1.1/" "tzinfo-1.2.3/" "logutils-0.6.1/" "bundler-1.15.1/" "drhenry-0.4.0/" "rails-dom-testing-2.0.3/" "concurrent-ruby-1.0.5/" "./" "thor-0.19.4/" "rails-html-sanitizer-1.0.3/" "rails-5.1.1/" "gli-2.16.0/" "rack-2.0.3/" "actionmailer-5.1.1/" "mini_portile2-2.2.0/" "sprockets-3.7.1/" "loofah-2.0.3/" "i18n-0.8.4/" "arel-8.0.0/" "actionview-5.1.1/" "globalid-0.4.0/" "erubi-1.6.0/" "../" "sprockets-rails-3.2.0/" "builder-3.2.3/" "activejob-5.1.1/" "mime-types-3.1/" "activemodel-5.1.1/" "actioncable-5.1.1/" "mime-types-data-3.2016.0521/" "websocket-extensions-0.1.2/")
-
- ("/home/alfons/.rvm/gems/ruby-2.4.0/gems/drhenry-0.4.0/" (22844 9882 821039 752000) "./" "lib/" "bin/" "../")
-
- ("/home/alfons/.rvm/gems/ruby-2.4.0/gems/drhenry-0.4.0/lib/" (22844 16525 120750 26000) ".#drhenrypost.rb" "./" "drhenrypost.rb" "../")
-
- ("/home/alfons/bin/github/2eso/01_gh/09_unit/md/" (22841 34314 986517 609000) "00.md" "08.md" "06.md" "07.md" "gpreg.sh" "05.md" "04.md~" "preguntes.md" "tablet.pdf" "preguntes_2.pdf" "01.md~" "./" "02.md" "generator_a5.sh" "04.md" "09.md" "preguntes_2.md" "03.md" "generator_a4.sh" "01.md" "template.tex" "../" "preguntes_2.md~" "template_a5_h.tex")
-
- ("/home/alfons/bin/github/2eso/01_gh/" (22837 36907 902614 169000) "07_unit/" "04_D1/" "02_unit/" "05_unit/" "01_unit/" "04_unit/" "./" "06_unit/" "03_unit/" ".DS_Store" "08_unit/" "09_unit/" "../")
-
- ("/home/alfons/bin/github/2eso/01_gh/09_unit/" (22837 36907 902614 169000) "./" "md/" "../")
-
- ("/home/alfons/bin/github/5pri/" (22834 52740 659458 57000) ".git/" "02_angles/" "01_socials/" "LICENSE" "06_mates/" "./" "05_naturals/" "04_musica/" "0_horari/" "03_cv/" "README.md" "../")
-
- ("/home/alfons/bin/github/2eso/05_mu/md/" (22836 18207 715977 167000) "09_ud09.md" "cc.jpg" "preg2_.md" "preguntes.md" "01_ud01.md" "05_ud05.md" "03_ud03.md" "preguntes2.md" "preg2.pdf" "tablet.pdf" "04_ud04.md" "10_ud10.md" "./" "generator_a5_preg_vertical.sh" "generator_a5_preguntes.sh" "preg2_.pdf" ".DS_Store" "11_ud11.md" "generator_a5.sh" "02_ud02.md" "06_ud06.md" "12_ud12.md" "template.tex" "../" "09_ud09.md~" "template_a5_h.tex" "preguntes.pdf")
-
- ("/home/alfons/bin/github/emacs/" (22830 61270 685535 318000) "images/" ".git/" "_site/" "_sass/" "LICENSE" "css/" "./" "about.md" "_draft/" "feed.xml" "_posts/" "_includes/" "404.md" "README.md" "index.html" "LICENSE.md" "_config.yml" ".sass-cache/" "_layouts/" "../")
-
- ("/home/alfons/Documents/56_bulletjournal/org/~~/" (22833 42991 379384 930000) "Documents/" "./" "../")
-
- ("/home/alfons/Documents/56_bulletjournal/org/~~/Documents/" (22833 42991 379384 930000) "./" "56_bulletjournal/" "../")
-
- ("/home/alfons/Documents/56_bulletjournal/org/~~/Documents/56_bulletjournal/" (22833 42991 379384 930000) "./" "org/" "../")
-
- ("/home/alfons/bin/github/rails/" (22833 43982 46773 188000) ".git/" "_site/" "LICENSE" "./" "about.md" "_posts/" "Gemfile" "index.md" "README.md" "foo/" "Gemfile.lock" "_config.yml" ".sass-cache/" "../")
-
- ("/home/alfons/bin/github/inclusa.github.io/_productivity/" (22830 64965 810486 810000) "38-motivacion.md" "51-obstacles.md" "37-exit.md" "24-estres.md" "04-home-en-busca-de-sentit.md" "16-mentalitat.md" "54-metes.md" "06-complir-les-teues-metes.md" "40-productividad.md" ".#55-aprendre.md" "44-pol-sud.md" "09-kaizen.md" "_site/" "26-motivacio.md" "31-decisions.md" "47-metes.md" "42-resistencia.md" "25-maestria.md" "22-llenyater.md" "43-pol.md" "32-meditacio.md" "13-estrategies.md" "08-estrategies.md" "./" "05-autocontrol.md" "50-cautivar.md" "34-obstacles.md" "21-conte.md" "18-grit.md" "30-preocupacions.md" "15-intelligenciaa-intuitiva.md" "35-meditar.md" "39-fast.md" "11-toyota.md" "02-set-habits-de-la-gent-altament-efectiva.md" "48-lleis-exit.md" "27-fluxe.md" "07-talent.md" "36-rapid-lent.md" "52-formigues.md" "01-claus-lideratge.md" "23-decisions.md" "19-conceptes.md" "53-influencia.md" "14-talent.md" "12-decisions.md" "45-vulnerabilitat.md" "33-actituds.md" "../" "10-metes.md" "41-lideratge.md" "28-emocions.md" "20-python.md" "17-nivells.md" "03-el-poder-dels-habits.md" "36-rendiment.md" "29-felicitat.md" "49-focus.md" "46-neuromarketing.md")
-
- ("/home/alfons//" (22823 37671 760668 606000) ".swn" ".vimrc" ".moc/" ".kde/" ".ACCV/" ".swh" ".dvdrip/" ".sane/" ".wget-hsts" ".wireshark/" ".gem/" ".gnome/" ".zshrc.pre-oh-my-zsh" ".twidgerc" ".conky-bk" ".xmind/" ".xpra/" ".aptitude/" ".stunnixws/" ".gitconfig" "Dropbox/" ".node_repl_history" ".icons/" ".rvmrc" ".atom/" ".claws-mail/" ".python_history" ".gtickrc" "wget-log" ".appcfg_nag" ".goutputstream-23V7SW" ".bash_profile" "full.org_archive" ".fakexinerama" ".sudo_as_admin_successful" ".bashrc" ".speech-dispatcher/" ".xsession-errors" ".conkyrc" ".asunder" ".conkyrc_bk" ".conky/" ".xsession-errors.old" "fills/" ".conkyrc_" ".links2/" ".denemo-1.1.0/" ".emacs.d/" ".list.tasks" ".gnupg/" ".bash_aliases" "Programa/" ".fonts/" ".lyx/" ".mission-control/" "Documents/" ".tomighty/" ".descartes/" ".anki/" ".tor/" ".rpmdb/" "VirtualBox VMs/" "wget-log.2" ".ICEauthority" ".stopmotion/" ".PlayOnLinux/" ".goutputstream-OYP1SW" ".FBReader/" ".zcompdump" ".xournal/" "inclusa.pub" ".freerdp/" ".minecraft/" ".freemind/" ".bash_history" "Públic/" ".nv/" ".weather/" ".gnome2_private/" ".TelegramDesktop/" "C:\\nppdf32Log\\debuglog.txt" ".ninja_ide/" "Vídeos/" ".pyrenamer/" ".SciTEUser.properties" ".ConkyWizardTheme/" ".dbus/" ".xscreensaver" ".nowplaying/" ".bundler/" ".dia/" ".activestate/" ".irssi/" ".task/" ".sbd/" ".ghc/" ".selected_editor" ".gitk" ".ConkyWizardLaunch" ".qalculate/" ".viminfo" ".pki/" ".telegram-6b3c6d017754f745c6740365d29de1ba/" ".bash_logout" ".lastpass/" ".pencil/" "etc/" ".android/" ".fehbg" ".esd_auth" "Baixades/" ".etracer/" ".pulse-cookie" ".ActiveGrid IDE" ".geeknote/" "tmp/" ".swo" ".tkremindrc" ".gnuplot_history" ".remmina/" ".kchmviewer/" ".gtk-custom-papers" ".v8flags.3.14.5.9.root.json" ".fonts.conf" ".komodoide/" ".swl" ".mkshrc" ".gvfs/" ".tuxtype/" ".dropbox/" ".arista/" ".sqlite_history" "temes/" ".gksu.lock" ".scribus/" ".v8flags.3.14.5.9.alfons.json" ".config/" ".workrave/" ".InstallAnywhere/" ".zcompdump-server-5.1.1" ".compiz/" ".Xauthority" ".swj" ".cabal/" ".wine/" ".asunder_album_artist" ".fluxweatherrc" ".oracle_jre_usage/" ".xxe6/" ".remarkable/" ".copy/" ".zsh-update" ".thumbnails/" ".profile" ".zshrc" ".gphoto/" ".goutputstream-ECPQSW" ".bluefish/" ".thunderbird/" ".swm" "full.org~" ".distlib/" ".asunder_album_title" "snap/" ".vegas/" ".bundle/" ".dvdriprc" "Library/" ".goutputstream-GLJBTW" "haking.txt" ".swf" ".mplayer/" ".unison/" ".solfege/" ".com.zerog.registry.xml" ".local/" ".bazaar/" "0_pendent/" ".gervill/" ".gimp-2.8/" "PycharmProjects/" "build_sphinx_documentation.sh" ".gramps/" "lib/" ".muttrc" ".heroku/" ".nvpy/" ".swi" ".filezilla/" ".winff/" ".CloudStationBackup/" ".dmrc" ".vidyo/" "Escriptori/" ".eclipse/" ".zotero/" ".vim/" ".gconf/" ".matplotlib/" ".netrc" ".sinadura/" "CmapToolsLogs/" ".goutputstream-SWCDTW" ".goutputstream-XI8QUW" ".git-credentials" ".cache/" ".java/" "sinadura/" ".VirtualBox/" "temp/" ".rnd" ".ssh/" ".swp" ".goutputstream-ZVDNTW" ".moonchild productions/" ".e.swp" ".goutputstream-VQ2SSW" ".calibre_calibre GUI.lock" "remind/" ".taskrc" "estudi/" ".macromedia/" "a.md" ".dingrc" ".Skype/" ".goutputstream-QO9HTW" ".xbindkeysrc.scm" ".lesshst" ".goutputstream-XMEQSW" ".asunder_album_genre" ".reminders" ".shutter/" ".subversion/" "src/" ".pip/" ".KatamotzAlumnos-253/" ".mozilla/" ".pulse/" ".temperature" ".vnc/" "bin/" ".xine/" "aeat/" ".emacs~" ".python-eggs/" ".gnome2/" ".xinputrc" ".swk" ".resolver/" "Música/" ".so_sane_state" ".swt/" "JClic/" ".kompozer.net/" "Voice Files/" ".pam_environment" ".openshot/" ".nano_history" ".gtk-bookmarks" ".edu.xtec.properties" ".oh-my-zsh/" "full.org_archive~" ".bzr.log" ".fluxbox/" ".exe/" ".mysql_history" "My_Cmaps/" ".npm/" ".xvkbd" "wget-log.1" ".node-gyp/" ".hplip/" ".texmf-var/" ".xsession" ".wbar_" ".dropbox-dist/" "GitBook/" ".screenlets/" ".gstreamer-0.10/" ".denemo-0.9.2/" ".conkyrc-bk2" ".idlerc/" ".audacity-data/" "mbox" ".swg" ".pomosh/" ".elinks/" ".galculator" ".cddbslave/" ".cmaptools/" ".vidalia/" "iso/" ".conkyrc-bk" ".adobe/" ".PyCharmEdu10/" ".solfegerc" ".forever/" "Mail/" ".ActiveState/" "Imatges/" ".minetest/" ".zsh_history" ".rvm/" "My Digital Editions/" ".:7-fakexinerama" ".emacs" ".uuid" "PlayOnLinux's virtual drives/" ".install4j" ".nvpy.cfg" ".pal/" ".zlogin" ".markdown.swp" ".Fontmatrix/" "../" "./")
-
- ("/home/alfons/bin/github/2eso/05_mu/" (22799 14579 809862 98000) "./" ".DS_Store" "md/" "../")
-
- ("/home/alfons/.emacs.d/snippets/markdown-mode/" (22817 19656 673522 691000) "post" "Newpage" "./" "../")
-
- ("/home/alfons/bin/github/2eso/01_gh/07_unit/md/" (22817 25025 985513 461000) "generator.sh" "00.md" "tot.md" "11_tablet.pdf" "10_tablet.pdf" "01.md~" "./" "generator_a5.sh" "01.md" "template.tex" "../" "template_a5_h.tex")
-
- ("/home/alfons/bin/github/2eso/01_gh/08_unit/" (22817 24896 953513 683000) "./" "md/" "../")
-
- ("/home/alfons/bin/github/2eso/01_gh/08_unit/md/" (22817 24818 65513 819000) "generator.sh" "00.md" "05.md" "tot.md" "04.md~" "11_tablet.pdf" "10_tablet.pdf" "01.md~" "00.md~" "02.md~" "./" "generator_a5.sh~" "02.md" "generator_a5.sh" "03.md~" "04.md" "generator.sh~" "03.md" "01.md" "template.tex" "../" "template_a5_h.tex")
-
- ("/home/alfons/bin/github/2eso/01_gh/08_unit/a4/" (22817 24464 669514 426000) "generator.sh" "00.md" "05.md" "04.md~" "11_tablet.pdf" "10_tablet.pdf" "01.md~" "00.md~" "02.md~" "./" "generator_a5.sh~" "02.md" "generator_a5.sh" "03.md~" "04.md" "generator.sh~" "03.md" "01.md" "template.tex" "../" "template_a5_h.tex")
-
- ("/home/alfons/bin/github/2eso/01_gh/07_unit/" (22816 31401 273031 906000) "./" "md/" "../")
-
- ("/home/alfons/.emacs.d/snippets/" (22811 52554 27886 405000) "lisp-interaction-mode/" "markdown-mode/" "./" "org-mode/" "../")
-
- ("/home/alfons/bin/github/ruby/" (22785 26864 615327 667000) ".git/" "_site/" ".gitignore" "LICENSE" "./" "about.md" "feed.xml" "_posts/" "_includes/" "README.md" "index.html" "LICENSE.md" "_config.yml" ".sass-cache/" "_layouts/" "assets/" "../")
-
- ("/home/alfons/Documents/56_bulletjournal/org/examples/" (22809 52304 25624 498000) "#c.org#" "#b.md#" "init-literate.org~" "./" "c.org" "init-literate.org" "../" ".#c.org")
-
- ("/home/alfons/Documents/56_bulletjournal/org/image/" (22807 17022 993253 624000) "./" "emacs.png" "../")
-
- ("/home/alfons/Documents/" (22809 60269 613907 194000) "11_ampa/" "PDF/" "70_backups/" "images/" "Zotero/" "Anki/" "06_bitacora/" "10_fills/" "15_comunitat/" "./" "backup_instruccions" "53_thats_english/" "51_receptes/" "55_gtd/" "60_informatica/" "01_treball_2016-2017/" "30_PT_oposicions/" "MumbleAutomaticCertificateBackup.p12" "40_recursos_pt/" "02_treball_docent/" "03_doc_treball/" "54_escriptura/" "12_valencia/" "calibre/" "52_edutictac/" "50_personal/" "56_bulletjournal/" "../" "04_ACIS LOMCE/" "31_coneixment_pt/" "32_pedagogia/" "05_Backup/")
-
- ("/home/alfons/bin/github/2eso/01_gh/06_unit/md/" (22804 55671 168047 405000) "00.md" "08.md" "06.md" "12.md" "07.md" "05.md" "10_tablet.pdf" "01.md~" "11.md" "00.md~" "02.md~" "./" "02.md" "generator_a5.sh" "10.md" "04.md" "09.md" "03.md" "01.md" "../" "template_a5_h.tex")
-
- ("/home/alfons/bin/github/2eso/02_fq/03_unit/" (22800 38600 230568 672000) "gen.sh" "01.pdf" "10_tablet.pdf" "01.md~" "./" "generator_a5.sh" "01.md" "template.tex" "../" "template_a5_h.tex" "001.pdf")
-
- ("/home/alfons/Baixades/Telegram Desktop/" (22802 17344 636268 652000) "video_2016-12-30_20-20-11.mov" "lliureX-2017-2.pdf" "video_2017-01-08_20-30-42.mov" "tutorial-plataforma-tao-testing.pdf" "video_2016-12-31_20-53-56.mov" "1 (2).org" "Mantra 4b.mp3" "Catalan.strings" "Qnap Rafa.png" "video_2016-12-09_06-48-45.mov" "Selección_022.png" "doc_2017-04-24_09-16-09.gitignore" "Assimil - Inglés perfeccionamiento - 1991 - Book + Audio.rar" "Camino al Minimalismo.pdf" "IMG_4620.JPG" "video_2017-02-22_17-54-05.mov" "Fluir.mp3" "video_2016-12-18_20-02-29.mov" "Scription Chronodex Weekly Jul-Dec 2016 no holiday.pdf" "Selección_006.png" "SeminarisTICMaterialsLliurex_5f8.pdf" "Assimil - Inglés Sin Esfuerzo - audio + book.rar" "video_2016-12-27_21-10-45.mov" "wetransfer-ffc41b.zip" "video_2016-12-19_17-04-37.mov" "video_2017-01-24_23-02-26.mov" "17-Metas-Gary Keller.mp3" "12-Practica-Geoff-Colvin.mp3" "keymap.cson" "Vacía Tu Bandeja.png" "Área de trabajo 1_016.png" "video_2017-02-22_17-18-00.mov" "Learning Functional Programming with Java.epub" "Selección_034.png" "Selección_035.png" "Selección_043.png" "Efectividad-7 habitos.mp3" "Mantra 1b.mp3" "New palette - Gpick_033.png" "Mantra 2b.mp3" "Harvey | 前端学习 - Google Chrome_018.png" "video_2016-12-18_20-01-53.mov" "Screen Shot 2017-03-17 at 19.45.45.png" "Mapas_Mentales_Para_Principiantes_.epub" "video_2016-12-16_05-25-51.mov" "Afirmaciones-de-muestra.pdf" "Selección_025.png" "video_2017-03-18_18-14-38.mov" "video_2017-05-10_00-02-41.mov" "video_2016-12-06_07-19-17.mov" "EMACS_MANUAL_MINIMO_17PAGS.PDF" "Selección_024.png" "plantilla habitos-semana-1.pdf" "Mantra 8b.mp3" "Mantra 3b.mp3" "favicon.ico" "1.org~" ".#1.org" "Catalan.xml" "Linux Express #11.mp3" "Selección_017.png" "Mantra 5b.mp3" "rpi.jpg" "Selección_042.png" "Vacía Tu Bandeja (1).png" "uGeek.png" "GTDandiPhoneA4.pdf" "IMG_4348.jpg" "congelador.odt" "taller_gestion_de_la_eficacia.pdf" "WP_20170422_13_55_34_Pro.jpg" "Selección_013.png" "14-Estrategias-Brian-Tracy.mp3" "video_2017-05-06_21-25-56.mov" "15-decisiones-Jeff Olsoon.mp3" "video_2017-02-12_06-25-38.mov" "Selección_020.png" "011f58ba97c4b9e55ab0349922bf26789b0747da.mp3" "video_2017-01-22_09-47-39.mov" "Selección_023.png" "AUD-20170316-WA0000.mp3" ".~lock.comidas-semana.odt#" "GTD-para-dummies v3.0 - Jero Sanchez.epub" "GTD-para-dummies.pdf" "[PDF]_GitHub_Essentials.pdf" "Afirmaciones-al-acostarte-1.pdf" "El Fracaso.m4a" "Proactividad.mp3" "3484eb03d58545503639c8cbb67205f3.jpg" " (2)" "idiomes/" "0/" "Sagunto_muerte_antes_que_rendicion_Nov_2014.pdf" "gift/" "video_2017-02-22_19-20-09.mov" "Mantra 9-Escoger.mp3" "Ansible Up and Running.pdf" "Selección_019.png" "00-Experimenta con Jekyll.mp3" "JaredSpool-456x268.jpg" "Captura de pantalla 2017-03-27 a las 8.56.11.jpg" "DOC-20170119-WA0014.pdf" "IMG_0467.JPG" "micro_satelites_curso_IACTec_2017 (1).pdf" "video_2017-03-10_19-44-19.mov" "GTDandiPadA4.pdf" "video_2017-03-22_05-43-24.mov" "video_2016-10-07_20-21-09.mov" "GTDInstallationGuide-A4.pdf" "2016 2017 CALENDARI ESCOLAR.pdf" "Captura de pantalla de 2017-04-24 17-27-37.png" "video_2017-03-11_12-15-10.mov" "video_2017-01-07_16-24-11.mov" "Selección_008.png" "30a971185ca5936f00fada3d0366007baa08e381.mp3" "GTD_Wunderlist_A4.pdf" "Selección_005.png" "comidas-semana.odt" "Taking Notes In Emacs Org-Mode.mp4" "video_2016-12-09_06-49-07.mov" "video_2016-12-19_17-05-01.mov" "video_2017-02-06_16-45-22.mov" "lliureX-2017-5.pdf" "Mantra 7b.mp3" "1.org" "video_2017-01-25_18-29-14.mov" "wetransfer-e733dc.zip" "INFORME PLUGES DILLUNS_17h_19 desembre-1.jpg" "Selección_007.png" "[EPUB]_GitHub_Essentials.epub" "16-Procesos-Kaizen.mp3" "educar_a2014m1-6v50n1p167.pdf" "Qnap Rafa (1).png" "#1.org#" "video_2017-01-06_06-10-49.mov" "video_2017-03-16_06-21-08.mov" "photo_2016-12-08_18-40-53.jpg" "GTD RevisiÃ³n semanal.csv" "video_2017-03-26_22-25-14.mov" "video_2017-02-12_06-24-45.mov" "Selección_026.png" "../" "./")
-
- ("/home/alfons/bin/github/2eso/02_fq/" (22799 46400 716693 879000) "01_unit/" "./" "03_unit/" "../")
-
- ("/home/alfons/Documents/10_fills/01_daniel/2eso/01_angles/03_llibres/" (22792 53957 986888 55000) "the_happy_prince.pdf" "hp_vocabulary.md" "journey_grammar-answers.pdf" "the_happy_prince.md~" "hp_ordered.pdf" "vocabulary_happy_princes.txt" "hp_ordered.md" "./" "JourneytotheCentre_102.pdf" "the_happy_prince.md" "journey_to_the_centre_of_the_earth_dominous_starter_test.pdf" "../")
-
- ("/home/alfons/bin/github/2eso/01_gh/06_unit/" (22799 14579 809862 98000) "./" ".DS_Store" "md/" "../")
-
- ("/home/alfons/Documents/10_fills/01_daniel/2eso/01_angles/" (22596 3474 788558 60000) "02_extraescolar/" "03_llibres/" "./" "01_writing/" "../")
-
- ("/home/alfons/Documents/10_fills/01_daniel/2eso/" (22687 1948 321101 447000) "./" "vicensvives.odt" "01_angles/" "2eso/" "03_castella/" "04_valencia/" "05_informatica/" "00_planificacio/" "02_gh/" "../")
-
- ("/home/alfons/Documents/10_fills/01_daniel/" (22492 15291 297656 978000) "ies/" "odt/" "1eso/" "inkscape/" "scribus/" "pendent/" "genealogic/" "xmind/" "txt/" "musica/" "tmp/" "./" "evolutiva/" "conceptes/" "autoritzacions/" "2eso/" "programacions/" "slides/" "kanban/" "epub/" "blog/" "src/" "english/" "pdf/" "../" "medi/" "biografies/" "portades/" "arxiu/")
-
- ("/home/alfons/Documents/10_fills/" (22777 49903 638830 845000) "01_daniel/" "06_xmind_foto/" "02_mireia/" "./" "../" "04_recursos/" "03_bloc/" "05_templates/")
-
- ("/home/alfons/Documents/10_fills/daniel/2eso/01_angles/03_llibres/" (22777 688 197946 842000) "the_happy_prince.pdf" "journey_grammar-answers.pdf" "the_happy_prince.md~" "./" "JourneytotheCentre_102.pdf" "the_happy_prince.md" "journey_to_the_centre_of_the_earth_dominous_starter_test.pdf" "../")
-
- ("/home/alfons/Documents/56_bulletjournal/org/temp/" (22775 54777 901265 964000) "#init-literate.org#" "./" "init-literate.org" "../")
-
- ("/home/alfons/Documents/60_informatica/14_programacio/04_ruby/" (22775 482 186743 580000) "holamundo.rb" "calc.rb" "io.rb" "./" "nombres.rb" "string.rb" "../" "variables.rb")
-
- ("/home/alfons/Documents/10_fills/daniel/2eso/01_angles/" (22596 3474 788558 60000) "02_extraescolar/" "03_llibres/" "./" "01_writing/" "../")
-
- ("/home/alfons/Documents/10_fills/daniel/2eso/" (22687 1948 321101 447000) "./" "vicensvives.odt" "01_angles/" "2eso/" "03_castella/" "04_valencia/" "05_informatica/" "00_planificacio/" "02_gh/" "../")
-
- ("/home/alfons/Documents/10_fills/daniel/" (22492 15291 297656 978000) "ies/" "odt/" "1eso/" "inkscape/" "scribus/" "pendent/" "genealogic/" "xmind/" "txt/" "musica/" "tmp/" "./" "evolutiva/" "conceptes/" "autoritzacions/" "2eso/" "programacions/" "slides/" "kanban/" "epub/" "blog/" "src/" "english/" "pdf/" "../" "medi/" "biografies/" "portades/" "arxiu/")
-
- ("/home/alfons/Documents/60_informatica/14_programacio/" (22768 25650 341116 891000) "01_django/" "./" "02_litesql/" "../" "03_python/" "04_ruby/")
-
- ("/home/alfons/Documents/60_informatica/" (22768 25543 321115 796000) "17_seguretat/" "19_terxmf/" "23_xarxes/" "04_drivers/" "07_html/" "09_lliurex/" "12_ordinador/" "./" "20_tic/" "08_icons/" "18_synology/" "01_beames/" "06_heroku/" "21_ubuntuphone/" "03_css/" "14_programacio/" "11_marc/" "10_manuals/" "05_hacking/" "00_revisar/" "../" "22_web/" "16_routers/" "13_presseloycol/" "02_books/" "15_programari/")
-
- ("/home/alfons/Documents/01_treball_2016-2017/01_la_font/01_avaluacio/02_2trim/" (22762 41027 686565 957000) "generator.sh" "./" "md/" "pdf/" "logo.png" "template.tex" "../" "default.latex")
-
- ("/home/alfons/Documents/01_treball_2016-2017/01_la_font/01_avaluacio/02_2trim/md/" (22762 41157 654565 52000) "08.md" "06.md" "12.md" "ava.md" "07.md" "05.md" "01.md~" "11.md" "02.md~" "./" "02.md" "03.md~" "10.md" "04.md" "09.md" "03.md" "01.md" "ini.md" "../")
-
- ("/home/alfons/bin/github/inclusa.github.io/" (22734 6109 673650 436000) "folio-master/" "img/" "poetry.md" "productivitat.md" "_portfolio/" "source/" ".git/" "_site/" "_sass/" "portfolio.md" "LICENSE" "css/" "./" "about.md" "_posts/" "_includes/" "_productivity/" "README.md" "_poetry/" "index.html" "_config.yml" ".sass-cache/" "_layouts/" "../")
-
- ("/home/alfons/Documents/01_treball_2016-2017/02_fontanars/01_avaluacio/02_2trim/md/" (22755 57776 230390 597000) "06.md" "07.md" "05.md" "./" "02.md" "04.md" "03.md" "01.md" "ini.md" "../")
-
- ("/home/alfons/Documents/01_treball_2016-2017/02_fontanars/01_avaluacio/02_2trim/" (22735 2458 177705 875000) "generator.sh" "./" "md/" "pdf/" "logo.png" "org/" "template.tex" "ini.md" "../" "default.latex")
-
- ("/home/alfons/Documents/01_treball_2016-2017/02_fontanars/01_avaluacio/" (22735 2704 385708 395000) "02_2trim/" "00_av_ini/" "./" "01_1trim/" "../")
-
- ("/home/alfons/Documents/01_treball_2016-2017/02_fontanars/" (22743 65152 234726 442000) "03_seguiment/" "01_avaluacio/" "07_fotos/" "./" "02_programacio/" "08_jclic/" "../" "04_tècniques/" "06_down/" "05_comunicacions/")
-
- ("/home/alfons/Documents/01_treball_2016-2017/01_la_font/01_avaluacio/" (22753 14606 903877 755000) "02_2trim/" "00_av_ini/" "./" "01_1trim/" "../")
-
- ("/home/alfons/Documents/01_treball_2016-2017/01_la_font/" (22753 14433 811873 915000) "03_audio/" "01_avaluacio/" "06_usuaris/" "./" "04_programacio/" "../" "02_correu/" "05_comunicacions/")
-
- ("/home/alfons/Documents/01_treball_2016-2017/01_la_font/01_avaluacio/02_1trim/" (22614 48882 59715 519000) "generator.sh" "./" "md/" "pdf/" "logo.png" "template.tex" "ini.md" "../" "default.latex")
-
- ("/home/alfons/Documents/56_bulletjournal/" (22753 13756 275858 884000) "./" ".emacs.desktop" "org/" "../")
+ ("/home/alfons/bin/" (22896 13356 157998 475000) "bazaar/" "html/" "crypte/" "markdown/" "bower" "grunt" "missatges/" "jscript/" "conky-manager/" "backup/" "workrave/" "lliurex/" "colors/" "cron/" "tv/" "jekyll/" "txt/" "00_bin/" "node/" "tmp/" "css/" "now" "github/" "./" "web2py/" "sqlite3/" "treball/" "pomodoro/" "ip/" "renta2012/" "scripts/" "java/" "dns/" "prog-meus/" "programari/" "bash/" "../" "go/" "web_generator/" "python/" "vim/" "markdonw_mod.css" "ubuntu/")
 
  ("/home/" (21141 43747 113196 414000) "net/" "mireia/" "./" "fileLog.txt" "alfons/" "marianeus/" "lost+found/" "daniel/" "../")
 
- ("/home/alfons/Documents/bulletjournal/" (22743 56336 374682 492000) "full.tex" "full.org" "./" "full.pdf" ".#full.org" "#full.org#" "../")
+ ("/home/alfons/Documents/01_treball_2017-2018/01_montesa/01_ini/02_ini_ord/" (22966 4312 848857 922000) "./" "PT MONTESA/" "LOGOPEDIA/" "dislexia/" "conceptos basicos infantil/" "../")
+
+ ("/home/alfons/Documents/01_treball_2017-2018/01_montesa/01_ini/01_temps/" (22963 50539 0 0) "./" "calendari_17-18.pdf" "../")
+
+ ("/home/alfons/Documents/01_treball_2017-2018/01_montesa/01_ini/" (22966 4276 192857 547000) "./" "02_ini_ord/" "01_temps/" "../")
+
+ ("/home/alfons/Documents/01_treball_2017-2018/01_montesa/" (22968 16968 500563 48000) "./" "03_planificacio/" "04_confidencial/" "01_ini/" "02_database/" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----
