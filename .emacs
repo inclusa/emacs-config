@@ -62,10 +62,12 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 ;;
 ;;
-;
-;
+;;
+;; ###################################
 ;; INDEX
-;
+;; ###################################
+;;
+;;; #00 Establir utf-8 per defecte
 ;;; #01 Espeficar directori per defecte
 ;;; #02 Comença el calendar i amb el dia 1
 ;;; #03 Nomena els dies i els mesos en catala
@@ -100,6 +102,11 @@
 ;;
 ;;
 ;;
+;; 
+;;; #00 Establir utf-8 per defecte
+(prefer-coding-system 'utf-8)
+(setq coding-system-for-read 'utf-8)
+(setq coding-system-for-write 'utf-8)
 ;;
 ;;; #01 Espeficar directori per defecte
 (setq default-directory "~/Documents/56_bulletjournal/org")					;
@@ -237,7 +244,7 @@ trash-directory "~/.local/share/Trash/files")
 ;;
 ;;
 ;;; #19 Configuració de Bullets
-(load "~/.emacs.d/lips/org-bullets.el")
+(load "~/.emacs.d/lisp/org-bullets.el")
 ;(setq 'org-bullets-mode)
 ;(add-hook 'org-bullet-mode)
 (require 'org-bullets)
@@ -340,4 +347,4 @@ trash-directory "~/.local/share/Trash/files")
 (prefer-coding-system 'utf-8)
 ;;
 ;; #33 Configuració de Kanban
-(load "~/.emacs.d/lips/org-kanban.el")
+(load "~/.emacs.d/lisp/org-kanban.el")
